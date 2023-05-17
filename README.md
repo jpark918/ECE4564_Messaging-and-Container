@@ -28,7 +28,7 @@ machine) </br>
 <br>
 • Each client pulls at least 20 tweets, and records latency to process each tweet </br>
 
-Additional Information:
+<br> Additional Information: </br>
 RabbitMQ is a message broker based on the AMQP protocol.
 An exchange receives messsages from producers and pushes them to queues.
 
