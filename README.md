@@ -1,4 +1,4 @@
-Specification: 
+## <br> Specification: </br>
 Project 3 is an extension to Project 2, which is a text-based question and answer system.
 Questions to your Q&A system comes from Twitter Tweets and got answered by
 WolframAlpha’s computational knowledge engine. The question and resulting answer are
@@ -7,7 +7,7 @@ The system uses two machines following the client/server model discussed in clas
 server is iterative and connection-oriented. Communication among client and server is handled
 via stream-oriented sockets.
 
-Updated Workflow
+## <br> Updated Workflow </br>
 <br>
 • The non-stopping client program captures a Twitter status object (Tweet) containing the
 question text in a streaming mode. </br>
@@ -28,7 +28,7 @@ machine) </br>
 <br>
 • Each client pulls at least 20 tweets, and records latency to process each tweet </br>
 
-<br> Additional Information: </br>
+## <br> Additional Information: </br>
 RabbitMQ is a message broker based on the AMQP protocol.
 An exchange receives messsages from producers and pushes them to queues.
 
